@@ -77,3 +77,25 @@ body
     background-size: 45vw 58vh;
     z-index: -1;
 }
+
+#buttonRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 42.5vw;
+    margin-top: -6vh;
+}
+
+#buttonLeft {
+    margin-top: 19vh;
+}
+
+#buttonRight, #buttonLeft {
+    border-radius: 5px;
+    border: rgba(255, 255, 255, 0.7) solid 0.5px;
+    background-color: rgba(0, 0, 0, 0.38);
+    color: white;
+    font-size: 3rem;
+    width: 4rem;
+    height: 6rem;
+}

@@ -1,50 +1,58 @@
-let buttonLeft = document.querySelector('#buttonLeft');
-let buttonRight = document.querySelector('#buttonRight');
-let imgArray = ['img/Robert Pattinson ans Zoe Kravitz', 'img/Most Anticipated', 'img/Docteur Strange', 'img/New Movie of 2022',
-    'img/Pam & Tommy', 'img/Thimothée Chalamet', 'img/Peaky Blinders', 'img/Alana Haim', 'img/Archive 81','img/Zndaya', 'img/Krinsten Bells',
-    'img/Breaking Bad', 'img/Wolf like me', 'img/Black Adam'];
-let div = document.querySelector('#car1');
+let poster = [
+    "img/icône Adam Black",
+    "img/icône Alana Haim",
+    "img/icône Robert Pattinson",
+    "img/icône Wolf like me",
+    "img/icône Docteur Strange",
+    "img/icône Pam & Tommy.jpg",
+    "img/icône Kisten Bell's",
+    "img/incône Peaky Blinders",
+]
 
+let title = [
+    "Robert Pattinson and Zoë Kravitz Team Up in 'The Batman'",
+    "What Are the Most Anticipated New Shows of 2022?",
+    "'Doctor Strange in the Multiverse of Madness'",
+    "The Most Anticipated New Movies of 2022",
+    "Pam & tommy",
+    "Thimothée Chalamet's path from Homeland to 'Dune'",
+    "'Peaky Blinders Season 6'",
+    "Alana Haim Brings Het Love of L.A to 'Licorice Pizza'",
+    "Archive 81",
+    "Zendaya's Journey From 'Shake It Up' to 'Dune'",
+    "The Most Shocking Moments from 'Breaking Bad'",
+    "Wolf Like Me",
+    "What We Know About 'Black Adam'"
+]
 
-//function for load the image
-function load() {
-    for (let i = 0; i < imgArray.length; i++) {
-        //create a div for stock the images
-        div.style.backgroundImage = "url('" + imgArray[i] + ".jpg')";
-    }
-}
+let subtitle = [
+    "Watch the New trailer",
+    "The IMDb Audience Has Spoken",
+    "Watch the Teaser Trailer",
+    "Get Your Watchlists Ready",
+    "Watch the Trailer",
+    "See His Rise to Frame",
+    "Watch the Trailer",
+    "Watch the Interview",
+    "Watch the Trailer",
+    "Follow Her Rise to Fame",
+    "Classic Episodes to Revisit",
+    "Watch the Trailer",
+    "Dwayne Johnson's DC Comics Antihero"
+]
 
-let j = 0;
-load();
-div.style.backgroundImage = "url('" + imgArray[j] + ".jpg')";
-
-buttonLeft.addEventListener('click', function (){
-    j--;
-    load();
-    div.style.backgroundImage = "url('" + imgArray[j] + ".jpg')";
-    // condition for go back
-    if (j === -1) {
-        j = imgArray.length -1;
-        load();
-        div.style.backgroundImage = "url('" + imgArray[j] + ".jpg')";
-    }
-});
-
-buttonRight.addEventListener('click', function (){
-    j++;
-    load();
-    div.style.backgroundImage = "url('" + imgArray[j] + ".jpg')";
-    //condition for go ahead
-    if (j === imgArray.length - 1) {
-        j = -1;
-    }
-});
-
-setInterval(function () {
-    load();
-    j++;
-    div.style.backgroundImage = "url('" + imgArray[j] + ".jpg')";
-    if (j === imgArray.length - 1) {
-        j = 0;
-    }
-}, 6000);
+let duration = [
+    "2:39",
+    "2:30",
+    "2:12",
+    "2:45",
+    "1:47",
+    "3:48",
+    "1:32",
+    "2:06",
+    "2:20",
+    "3:55",
+    "2:09",
+    "2:00",
+    "3:23"
+]
