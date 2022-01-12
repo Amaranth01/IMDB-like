@@ -1,8 +1,8 @@
 let buttonLeft = document.querySelector('#buttonLeft');
 let buttonRight = document.querySelector('#buttonRight');
-let imgArray = ['img/Robert Pattinson ans Zoe Kravitz', 'img/Most Anticipated', 'img/Docteur Strange', 'img/New Movie of 2022',
-    'img/Pam & Tommy', 'img/Thimothée Chalamet', 'img/Peaky Blinders', 'img/Alana Haim', 'img/Archive 81','img/Zndaya',
-    'img/Breaking Bad', 'img/Wolf like me', 'img/Black Adam'];
+let imgArray = ['assets/img/Robert Pattinson ans Zoe Kravitz', 'assets/img/Most Anticipated', 'assets/img/Docteur Strange', 'assets/img/New Movie of 2022',
+    'assets/img/Pam & Tommy', 'assets/img/Thimothée Chalamet', 'assets/img/Peaky Blinders', 'assets/img/Alana Haim', 'assets/img/Archive 81','assets/img/Zndaya',
+    'assets/img/Breaking Bad', 'assets/img/Wolf like me', 'assets/img/Black Adam'];
 let div = document.querySelector('#car1');
 
 
