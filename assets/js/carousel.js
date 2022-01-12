@@ -5,7 +5,6 @@ let imgArray = ['assets/img/Robert Pattinson ans Zoe Kravitz', 'assets/img/Most 
     'assets/img/Breaking Bad', 'assets/img/Wolf like me', 'assets/img/Black Adam'];
 let div = document.querySelector('#car1');
 
-
 //function for load the image
 function load() {
     for (let i = 0; i < imgArray.length; i++) {

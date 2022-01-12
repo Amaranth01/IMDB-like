@@ -62,22 +62,20 @@ body #head #need .search {
   border: none;
   background-color: rgba(255, 255, 255, 0.7);
 }
-body #body #car1 {
-  width: 45vw;
-  height: 58vh;
-  margin-left: 17vw;
-  background-size: 45vw 58vh;
+body #body {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
   z-index: -1;
 }
-body #body #car1 #buttonRight {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 42.5vw;
-  margin-top: -6vh;
-}
-body #body #car1 #buttonLeft {
-  margin-top: 19vh;
+body #body #car1 {
+  width: 45%;
+  height: 58vh;
+  background-size: 45vw 58vh;
+  margin-top: 1rem;
+  display: inline-block;
 }
 body #body #car1 #buttonRight, body #body #car1 #buttonLeft {
   border-radius: 5px;
@@ -87,6 +85,20 @@ body #body #car1 #buttonRight, body #body #car1 #buttonLeft {
   font-size: 3rem;
   width: 4rem;
   height: 6rem;
+  z-index: 1;
+}
+body #body #car1 #buttonRight {
+  margin-left: 42.5vw;
+  margin-top: -6vh;
+}
+body #body #car1 #buttonLeft {
+  margin-top: 19vh;
+}
+body #body #car2 {
+  background-color: red;
+  width: 20%;
+  height: 58vh;
+  display: inline-block;
 }
 
 /*# sourceMappingURL=style.css.map */
