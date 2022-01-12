@@ -1,0 +1,26 @@
+{
+  "name": "imdb-like",
+  "version": "1.0.0",
+  "description": "carousel 6 secondes entre défilement",
+  "main": "assets/js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:dev": "sass assets/sass:assets/css",
+    "sass:prod": "sass --no-source-map assets/sass:assets/css",
+    "sass:watch": "sass --watch assets/sass:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eby-sam/IMDB-like.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eby-sam/IMDB-like/issues"
+  },
+  "homepage": "https://github.com/Eby-sam/IMDB-like#readme",
+  "dependencies": {
+    "sass": "^1.47.0"
+  }
+}

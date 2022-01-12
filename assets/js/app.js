@@ -1,12 +1,12 @@
 let poster = [
-    "img/icône Adam Black",
-    "img/icône Alana Haim",
-    "img/icône Robert Pattinson",
-    "img/icône Wolf like me",
-    "img/icône Docteur Strange",
-    "img/icône Pam & Tommy.jpg",
-    "img/icône Kisten Bell's",
-    "img/incône Peaky Blinders",
+    "assets/img/icône Adam Black",
+    "assets/img/icône Alana Haim",
+    "assets/img/icône Robert Pattinson",
+    "assets/img/icône Wolf like me",
+    "assets/img/icône Docteur Strange",
+    "assets/img/icône Pam & Tommy.jpg",
+    "assets/img/icône Kisten Bell's",
+    "assets/img/incône Peaky Blinders",
 ]
 
 let title = [
