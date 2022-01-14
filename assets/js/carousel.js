@@ -4,8 +4,6 @@ let titleBig = document.getElementById('bigTitle');
 let carPoster = document.getElementById('poster');
 let littleTitle = document.getElementById('subTitle');
 let dur = document.getElementById('duration');
-let img1 = document.getElementsByClassName('img1');
-let details1 = document.getElementsByClassName('detail1');
 
 let imgArray = ['assets/img/Robert Pattinson ans Zoe Kravitz', 'assets/img/Most Anticipated', 'assets/img/Docteur Strange', 'assets/img/New Movie of 2022',
     'assets/img/Pam & Tommy', 'assets/img/Thimothée Chalamet', 'assets/img/Peaky Blinders', 'assets/img/Alana Haim', 'assets/img/Archive 81','assets/img/Zndaya',
@@ -86,8 +84,6 @@ function load() {
         titleBig.innerHTML = title[i];
         littleTitle.innerHTML = subtitle[i];
         dur.innerHTML = duration[i];
-        img1.style.backgroundImage = "url('" + poster[i+1] + ".jpg')";
-        details1.innerHTML = subtitle[i+1] + duration [i+1];
     }
 }
 
@@ -103,8 +99,6 @@ buttonLeft.addEventListener('click', function (){
     titleBig.innerHTML = title[j];
     littleTitle.innerHTML = subtitle[j];
     dur.innerHTML = duration[j];
-    img1.style.backgroundImage = "url('" + poster[j+1] + ".jpg')";
-    details1.innerHTML = subtitle[j+1] + duration [j+1];
     // condition for go back
     if (j === -1) {
         j = imgArray.length -1;
@@ -114,8 +108,6 @@ buttonLeft.addEventListener('click', function (){
         titleBig.innerHTML = title[j];
         littleTitle.innerHTML = subtitle[j];
         dur.innerHTML = duration[j];
-        img1.style.backgroundImage = "url('" + poster[j+1] + ".jpg')";
-        details1.innerHTML = subtitle[j+1] + duration [j+1];
     }
 });
 
@@ -127,8 +119,6 @@ buttonRight.addEventListener('click', function (){
     titleBig.innerHTML = title[j];
     littleTitle.innerHTML = subtitle[j];
     dur.innerHTML = duration[j];
-    img1.style.backgroundImage = "url('" + poster[j+1] + ".jpg')";
-    details1.innerHTML = subtitle[j+1] + duration [j+1];
     //condition for go ahead
     if (j === imgArray.length - 1) {
         j = -1;
@@ -143,8 +133,6 @@ setInterval(function () {
     titleBig.innerHTML = title[j];
     littleTitle.innerHTML = subtitle[j];
     dur.innerHTML = duration[j];
-    img1.style.backgroundImage = "url('" + poster[j+1] + ".jpg')";
-    details1.innerHTML = subtitle[j+1] + duration [j+1];
     if (j === imgArray.length - 1) {
         j = 0;
     }
