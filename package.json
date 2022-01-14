@@ -22,5 +22,6 @@
   "homepage": "https://github.com/Eby-sam/IMDB-like#readme",
   "dependencies": {
     "sass": "^1.47.0"
-  }
+  },
+  "devDependencies": {}
 }

@@ -2,7 +2,8 @@
     ---section color---
  */
 $black: black;
-$black2: rgba(18,18,18,0.83);
+$black2: rgb(35, 35, 35);
+$black3: #393939;
 $white2: rgba(255, 255, 255, 0.7);
 
 /*
@@ -46,10 +47,12 @@ body {
             border-radius: 5px;
             font-weight: bold;
         }
+
         a {
             color: white;
             text-decoration: none;
         }
+
         #need {
             display: flex;
             justify-content: stretch;
@@ -65,6 +68,7 @@ body {
             }
         }
     }
+
     /*
             ----Section body----
          */
@@ -105,10 +109,137 @@ body {
         }
 
         #car2 {
-            background-color: red;
-            width: 20%;
-            height: 58vh;
-            display: inline-block;
+            width: 30%;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
+            h2 {
+                color: #f5c518;
+                font-size: 2.5rem;
+                text-align: start;
+            }
+
+
+            .car2 {
+                height: 30%;
+                width: 90%;
+                background-color: $black3;
+                display: flex;
+                flex-direction: row;
+
+                .img1 {
+                    width: 25%;
+                    height: 100%;
+                    border: 2px solid $black2;
+                }
+
+                .detail1 {
+                    width: 75%;
+                    height: 100%;
+                    border: 2px solid $black2;
+                }
+            }
+        }
+    }
+
+    h1 {
+        color: #f5c518;
+        font-size: 3.5rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    #car3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 60%;
+        height: 20rem;
+        border: 1px solid white;
+        margin-left: 1rem;
+
+        #tab1 {
+            width: 40%;
+            height: 100%;
+            background-color: $black2;
+        }
+
+        #tab2 {
+            width: 40%;
+            height: 100%;
+            background-color: $black2;
+        }
+
+    }
+
+    h2 {
+        color: white;
+        font-size: 2.5rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    h3 {
+        color: white;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+
+    }
+
+    .car41 {
+        width: 90%;
+        height: 40rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0 auto;
+
+        .car4 {
+            width: 14%;
+            height: 90%;
+            background-color: $black3;
+        }
+    }
+
+    #centre1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 40rem;
+
+        div {
+            margin-top: 0.5rem;
+
+        }
+
+        button {
+            background-color: #f5c518;
+            padding: 15px;
+        }
+    }
+
+    .car42 {
+        width: 90%;
+        height: 20rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 1rem;
+
+        .car5 {
+            width: 14%;
+            height: 90%;
+            border-radius: 50%;
+            background-color: $black3;
         }
     }
 }
